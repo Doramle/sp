@@ -1,11 +1,11 @@
 console.log(`spotify-json-2023.06.13`);
 let url = $request.url;
-// console.log(`原始url:${url}`);
+// console.log(`脭颅脢录url:${url}`);
 if (url.includes('platform=iphone')) {
     url = url.replace(/platform=iphone/, 'platform=ipad');
-    // console.log(`替换platform:${url}`);
+    // console.log(`脤忙禄禄platform:${url}`);
 } else {
-    console.log('无需处理');
+    console.log('脦脼脨猫麓娄脌铆');
 }
 $done({
     url
